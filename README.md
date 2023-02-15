@@ -5,4 +5,4 @@
 [![Run on Repl.it](https://repl.it/badge/github/ICS2O-Programming-TonyT/Unit1-05-HTML-MDL)](https://repl.it/github/ICS2O-Programming-TonyT/Unit1-05-HTML-MDL)
 
 
-This site can be found at: [https://ICS2O-Programming-TonyT.github.io/<REPOSITORY>](https://ICS2O-Programming-TonyT.github.io/Unit1-05-HTML-MDL)
+This site can be found at: [https://ICS2O-Programming-TonyT.github.io/Unit1-05-HTML-MDL](https://ICS2O-Programming-TonyT.github.io/Unit1-05-HTML-MDL)
