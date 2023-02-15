@@ -1,3 +1,62 @@
 <!DOCTYPE html>
 <html>
+  <head>
+    <meta charset="UTF-8">
+    <script>
+      function showText() {
+        // Get the text element
+        var text = document.getElementById("text");
+        
+        // Show the text
+        text.style.display = "block";
+      }   
+    </script>
+    <title>Personalized Tony's</title>
+    <style>
+      /* Custom color scheme */
+      :root {
+        --primary-color: #90EE90;
+        --secondary-color: #CBC3E3;
+        --button-text-color: #ffff;
+      }
+      
+      /* Text field styles */
+      input[type="text"] {
+        padding: 10px;
+        border: 2px solid var(--primary-color);
+        border-radius: 5px;
+        font-size: 16px;
+        font-weight: bold;
+      }
+  
+      /* Button styles */
+      button {
+        background-color: var(--primary-color);
+        color: var(--button-text-color);
+        border: none;
+        border-radius: 5px;
+        padding: 10px 20px;
+        font-size: 16px;
+        cursor: pointer;
+        font-weight: bold;
+        transition: background-color 0.3s;
+      }
+      
+      button:hover {
+        background-color: var(--secondary-color);
+      }
+    </style>
+  </head>
+  <body>
+    <form>
+      <label for="name">Enter your name:</label>
+      <br>
+      <input type="text" id="name" name="name" placeholder="Your name..">
+      <br>
+      <button type="button" onclick="showText()">Submit</button>
+      <div class="showtext">
+        <p id="text" style="display:none">Wassup</p>
+      </div>
+    </form>
+  </body>
 </html>
