@@ -1,7 +1,6 @@
 function showText() {
-        // Get the text element
+// Get the text element
   var text = document.getElementById("text");
-        
-        // Show the text
+// Show the text
   text.style.display = "block";
 }
