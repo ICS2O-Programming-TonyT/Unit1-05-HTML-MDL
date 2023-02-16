@@ -3,7 +3,6 @@
   --secondary-color: #cbc3e3;
   --button-text-color: #ffff;
 }
-      
 /* Text field styles */
 input[type="text"] {
   padding: 10px;
@@ -12,7 +11,6 @@ input[type="text"] {
   font-size: 16px;
   font-weight: bold;
 }
-  
 /* Button styles */
 button {
   background-color: var(--primary-color);
@@ -24,8 +22,7 @@ button {
   cursor: pointer;
   font-weight: bold;
   transition: background-color 0.3s;
-}
-      
+}  
 button:hover {
   background-color: var(--secondary-color);
 }
